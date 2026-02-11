@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:docs.skymavis.com)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(curl:*)",
+      "WebFetch(domain:cdn.jsdelivr.net)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npx next build:*)",
+      "Bash(gh api:*)",
+      "Bash(python3:*)"
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": false
+  }
+}
